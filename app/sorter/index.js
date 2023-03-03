@@ -1,0 +1,1 @@
+exports.Sorter = require('./sort');

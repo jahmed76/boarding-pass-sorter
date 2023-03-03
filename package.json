@@ -1,0 +1,26 @@
+{
+  "author": "Jawad Ahmed <contact@jahmed.me>",
+  "version": "1.0.0",
+  "name": "boarding",
+  "description": "Boarding pass sorting API.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jahmed76/boarding-pass-sorter.git"
+  },
+  "main": "app/app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "10.0.0",
+    "express": "4.17.2",
+    "morgan": "^1.10.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.2"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5",
+    "supertest": "^6.1.6"
+  }
+}
