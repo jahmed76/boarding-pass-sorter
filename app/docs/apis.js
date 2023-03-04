@@ -18,6 +18,21 @@
  *         mode:
  *           type: string
  *           description: Travel mode. can be bus, aeroplane, train.
+ *         flightNumber:
+ *           type: string
+ *           description: Flight number, only applicable for aeroplane
+ *         seatNumber:
+ *           type: string
+ *           description: Seat number, can be used to specify seat number on bus, train and aeroplane
+ *         gateNumber:
+ *           type: string
+ *           description: Gate number, only applicable for aeroplane
+ *         baggage:
+ *           type: string
+ *           description: Baggage, only applicable for aeroplane
+ *         trainNumber:
+ *           type: string
+ *           description: Train number, only applicable for train
  *       example:
  *         mode: train
  *         source: A
